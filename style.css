@@ -10,17 +10,21 @@ body {
 }
 
 body * {
-     touch-action: none;
+    touch-action: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
 }
 
 .book {
-    position: absolute;
+    align-self: center;
 
     width: 300px;
     height: 300px;
-
-    left: 50%;
-    top: 50%;
 
     transform-style: preserve-3d;
 }
